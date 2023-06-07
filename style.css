@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background: url(./1518684.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 33px;
+}
+
+img{
+    width: 113px;
+    clip-path: circle();
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    padding: 12px;
+    width: 280px;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid rgb(105, 105, 105);
+}
+
+input, placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+.password{
+    margin-bottom: 18px;
+}
+
+.button{
+    margin-bottom: 32px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    background-color: rgb(189, 185, 185);
+    color: rgba(87, 87, 87);
+    border: 1px solid rgb(163, 163, 163);
+}
+
+.button:hover{
+    background-color: rgb(169, 164, 164);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+span{
+    font-size: 14px;
+    color: rgb(17, 17, 17);
+}
+
+a{
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+}
+
+.link-icons{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.link-icons a{
+    padding: 17px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+
+
+.link-icons a:hover{
+    background-color: rgba(19, 19, 19, 0.082);
+}
+
+span a:hover{
+    color: rgb(255, 255, 255);
+}
